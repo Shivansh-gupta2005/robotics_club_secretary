@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #101011;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile, .projects {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(48, 30, 178, 0.1);
+}
+
+.profile img, .projects img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+.project {
+    margin-top: 1rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+ 
+.passport-photo {
+    width: 192px; /* 2 inches * 96 pixels/inch */
+    height: 192px; /* 2 inches * 96 pixels/inch */
+    object-fit: cover;
+    border: 1px solid #000;
+}
